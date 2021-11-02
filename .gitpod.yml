@@ -8,5 +8,5 @@ ports:
 
 tasks:
   - name: racket
-  - init: ./tools/install-tools
-  - command: drracket
+    init: ./tools/install-tools
+    command: drracket
