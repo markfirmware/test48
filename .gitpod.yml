@@ -9,4 +9,4 @@ ports:
 tasks:
   - name: racket
     init: ./tools/install-tools
-    command: drracket
+    command: drracket window.rkt
